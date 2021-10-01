@@ -10,7 +10,7 @@ for (const k in envConfig) {
 
 const client = new CommandoClient({
     commandPrefix: '?',
-    owner: process.env.BOT_OWNER_ID,
+    owner: 356493615142404105,
     disableMentions: 'everyone'
 });
 
@@ -41,4 +41,4 @@ client.registry
     .registerCommandsIn(path.join(__dirname, 'commands'))
 ;
 
-client.login(process.env.TOKEN);
+client.login(process.env.CLE);
