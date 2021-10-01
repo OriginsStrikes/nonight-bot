@@ -10,7 +10,7 @@ for (const k in envConfig) {
 
 const client = new CommandoClient({
     commandPrefix: '?',
-    owner: 356493615142404105,
+    owner: process.env.ID,
     disableMentions: 'everyone'
 });
 
